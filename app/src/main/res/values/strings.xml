@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Entertainment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="film">电影</string>
+    <string name="music">音乐</string>
+    <string name="news">新闻</string>
+    <string name="mine">我的</string>
+    <string name="unreleased_film">未上映电影</string>
+    <string name="showing_film">热映电影</string>
+    <string name="user">我的</string>
+    <string name="plot">剧情</string>
+    <string name="suspense">悬疑</string>
+    <string name="action">动作</string>
+</resources>

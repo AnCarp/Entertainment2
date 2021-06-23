@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filmFragment"
+        android:enabled="true"
+        android:icon="@drawable/outline_movie_24"
+        android:title="@string/film"/>
+    <item
+        android:id="@+id/musicFragment"
+        android:enabled="true"
+        android:icon="@drawable/outline_audiotrack_24"
+        android:title="@string/music"/>
+    <item
+        android:id="@+id/newsFragment"
+        android:enabled="true"
+        android:icon="@drawable/outline_article_black_24"
+        android:title="@string/news"/>
+    <item
+        android:id="@+id/userFragment"
+        android:enabled="true"
+        android:icon="@drawable/outline_person_24"
+        android:title="@string/mine"/>
+</menu>

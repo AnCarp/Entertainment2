@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/filmFragment">
+
+    <action android:id="@+id/film_music_action" app:destination="@id/filmFragment"/>
+    <fragment
+        android:id="@+id/filmFragment"
+        android:name="com.fuyaojun.entertainment2.fragment.filmfragment.FilmFragment"
+        android:label="fragment_film"
+        tools:layout="@layout/fragment_film" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.fuyaojun.entertainment2.fragment.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.fuyaojun.entertainment2.fragment.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.fuyaojun.entertainment2.fragment.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+
+
+</navigation>
